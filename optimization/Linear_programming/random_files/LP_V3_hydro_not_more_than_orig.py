@@ -15,14 +15,13 @@ co2_hydro = 24 #kg/MWh
 co2_solar = 45 #kg/MWh
 co2_wind = 11 #kg/MWh
 co2_thermal = 700 #kg/MWh
-co2_cogen = 600/2 #kg/MWh 
+co2_cogen = 600/2 #kg/MWh
 columns_to_determine_monthly_max = ['Cogeneration [kW]', 'Hydro [kW]', 'Solar [kW]', 'Wind [kW]', 'Thermal [kW]']
 df['month'] = pd.DatetimeIndex(df['Timestamp']).month
 df['year'] = pd.DatetimeIndex(df['Timestamp']).year
 for column in columns_to_determine_monthly_max:
     df[column + ' max'] = df.groupby(['month', 'year'])[column].transform(max)
 
-#plot Cogeneration [kW] and Cogeneration [kW] max to see if it works
 # plt.plot(df['Cogeneration [kW]'], label='Cogeneration [kW]')
 # plt.plot(df['Cogeneration [kW] max'], label='Cogeneration [kW] max')
 # plt.legend()

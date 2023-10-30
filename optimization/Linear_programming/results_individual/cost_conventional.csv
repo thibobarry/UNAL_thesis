@@ -1,0 +1,2 @@
+,strategy,price_hydro [$/kWh],price_solar [$/kWh],price_wind [$/kWh],price_thermal [$/kWh],price_cogen [$/kWh],co2_hydro [kg/kWh],co2_solar [kg/kWh],co2_wind [kg/kWh],co2_thermal [kg/kWh],co2_cogen [kg/kWh],wind_capacity [kW],solar_capacity [kW],cost_conventional [$],co2_conventional [kg],original_cost_new_param [$],original_co2_new_param [kg]
+0,cost_conventional,0.066,0.06841,0.09097,0.12,0.067,0.024,0.041,0.011,0.55,0.217,1221748.84116487,3968801.11162239,10500525187.339373,8134149752.084343,11023789819.574005,15728740435.94227
