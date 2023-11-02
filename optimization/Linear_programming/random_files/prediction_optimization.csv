@@ -1,2 +1,0 @@
-strategy,wind_capacity [kW],solar_capacity [kW],cost_conventional [$],co2_regression [kg],original_cost [$],original_co2 [kg]
-co2_regression,1493115.45840038,1823205.39381477,0,10912877617251.09,4.031118812035786e+17,17278206467321.133
